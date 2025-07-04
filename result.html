@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Results</title></head>
+<body>
+<h2>Your Grades</h2>
+<table border="1">
+<tr><th>Score</th><th>Grade</th><th>Points</th></tr>
+{% for score, (grade, point) in zip(scores, grades) %}
+<tr><td>{{ score }}</td><td>{{ grade }}</td><td>{{ point }}</td></tr>
+{% endfor %}
+</table>
+<a href="/logout">Logout</a>
+</body>
+</html>

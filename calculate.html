@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Grade Calculator</title></head>
+<body>
+<h2>Grade Calculator</h2>
+<form method="post" action="/calculate">
+    <label>Enter scores (separated by new fields):</label><br>
+    {% for i in range(6) %}
+    <input type="text" name="scores"><br>
+    {% endfor %}
+    <button type="submit">Calculate</button>
+</form>
+<a href="/logout">Logout</a>
+</body>
+</html>

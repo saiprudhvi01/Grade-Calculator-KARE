@@ -1,0 +1,58 @@
+{
+    "students": [
+        {
+            "username": "Sudesh",
+            "password": "Sudesh",
+            "grades": {}
+        },
+        {
+            "username": "1",
+            "password": "1",
+            "grades": [
+                {
+                    "subject": "Subject 1",
+                    "score": 97.0,
+                    "grade": "B",
+                    "point": 8
+                },
+                {
+                    "subject": "Subject 2",
+                    "score": 92.0,
+                    "grade": "U",
+                    "point": 0
+                },
+                {
+                    "subject": "Subject 3",
+                    "score": 93.0,
+                    "grade": "E",
+                    "point": 5
+                },
+                {
+                    "subject": "Subject 4",
+                    "score": 95.0,
+                    "grade": "C",
+                    "point": 7
+                },
+                {
+                    "subject": "Subject 5",
+                    "score": 98.0,
+                    "grade": "A",
+                    "point": 9
+                },
+                {
+                    "subject": "Subject 6",
+                    "score": 98.0,
+                    "grade": "A",
+                    "point": 9
+                }
+            ],
+            "overall": "C"
+        }
+    ],
+    "admins": [
+        {
+            "username": "admin",
+            "password": "admin"
+        }
+    ]
+}
